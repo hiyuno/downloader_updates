@@ -57,5 +57,50 @@
         length="66079925"
         type="application/octet-stream" />
     </item>
+      <item>
+      <title>Downloader 1.1.0</title>
+      <pubDate>Mon, 27 Jul 2026 20:18:39 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<html><body>
+<h3>Changed</h3>
+<ul>
+<li>**Rediseño del launcher: ahora es un solo panel, no una lista.** Downloader</li>
+</ul>
+<p>deja atrás la lista de descargas con historial y pasa a un panel compacto</p>
+<p>de una sola pieza que muestra siempre la descarga activa — sin scroll, sin</p>
+<p>filas acumulándose.</p>
+<ul>
+<li>**Una descarga a la vez.** Si pegas una URL nueva mientras hay una descarga</li>
+</ul>
+<p>en curso, el panel la rechaza con una pequeña animación de rebote en vez de</p>
+<p>encolarla o reemplazarla en silencio — así siempre sabes qué se está</p>
+<p>descargando.</p>
+<ul>
+<li>**Acciones siempre visibles.** Los botones para abrir el archivo en Finder</li>
+</ul>
+<p>y para abrir la app de destino ya no dependen de pasar el mouse por</p>
+<p>encima ni de expandir una fila: están presentes desde que la descarga</p>
+<p>arranca.</p>
+<ul>
+<li>**Título con estado claro mientras carga.** Mientras yt-dlp resuelve la</li>
+</ul>
+<p>información del video, el panel muestra &quot;Preparando…&quot; en vez de dejar el</p>
+<p>título en blanco.</p>
+<ul>
+<li>**Transiciones pensadas para accesibilidad.** Los cambios de estado</li>
+</ul>
+<p>(esperando URL → descargando → completado/error) usan animaciones breves</p>
+<p>y con propósito, respetando &quot;Reducir movimiento&quot; del sistema.</p>
+</body></html>
+      ]]></description>
+      <enclosure
+        url="https://github.com/hiyuno/downloader_updates/releases/download/v1.1.0/Downloader-1.1.0.dmg"
+        sparkle:edSignature="Hy91tBj2CNLIemT0W75VCdHY/+2QbnEEVy2nMrr5OlHtj9tt9rBjZDZUt8RGZNRE+JKNWdJOAbW/L7n0mBVXDQ=="
+        length="66097568"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
