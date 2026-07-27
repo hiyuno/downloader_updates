@@ -5,5 +5,57 @@
     <link>https://raw.githubusercontent.com/hiyuno/downloader_updates/main/appcast.xml</link>
     <description>Actualizaciones de Downloader</description>
     <language>en</language>
+      <item>
+      <title>Downloader 1.0.0</title>
+      <pubDate>Mon, 27 Jul 2026 18:05:45 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<html><body>
+<h3>Added</h3>
+<ul>
+<li>Launcher macOS para descargar videos con yt-dlp, con lista de descargas y</li>
+</ul>
+<p>progreso en vivo por fila (`DownloadRowView`).</p>
+<ul>
+<li>Descarga y conversión de video/audio embebiendo binarios de `yt-dlp` y</li>
+</ul>
+<p>`ffmpeg` firmados dentro del bundle de la app (`Scripts/embed_binaries.sh`).</p>
+<ul>
+<li>Pantalla de Settings manual.</li>
+<li>Validador de URLs robusto (soporta esquemas de un solo colon).</li>
+<li>Revisión de accesibilidad (VoiceOver, Dynamic Type) y ajustes de HIG en</li>
+</ul>
+<p>materiales/botones del tema &quot;Frost&quot;.</p>
+<ul>
+<li>Icono de app.</li>
+<li>Suite de tests unitarios (63/63 verdes).</li>
+<li>Actualizaciones automáticas vía Sparkle 2.6.4 (SPM), con</li>
+</ul>
+<p>`SPUStandardUpdaterController` integrado en `AppDelegate`, feed en</p>
+<p>`hiyuno/downloader_updates` y firma de builds Release con identidad</p>
+<p>Developer ID (team 449S639443).</p>
+<ul>
+<li>Pipeline de distribución directa: `project.yml` con firma Release real,</li>
+</ul>
+<p>Debug ad-hoc, `Makefile` con targets `gen/build/test/archive/export-direct`,</p>
+<p>y `ExportOptions/Direct.plist`.</p>
+<h3>Pending</h3>
+<ul>
+<li>Generar y publicar el par de claves EdDSA de Sparkle (`SUPublicEDKey` sigue</li>
+</ul>
+<p>vacío en `Info.plist`).</p>
+<ul>
+<li>Primer release público (`1.0.0` build `1`).</li>
+</ul>
+</body></html>
+      ]]></description>
+      <enclosure
+        url="https://github.com/hiyuno/downloader_updates/releases/download/v1.0.0/Downloader-1.0.0.dmg"
+        sparkle:edSignature="X23DRCDLM7G8n00sU2NFM5TqKaNHAZtCvv+FatQLgzt+1QGS9smRR0kV2bUkh2vnDDnzqczS7Sx4x560mdxIAw=="
+        length="66079925"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
