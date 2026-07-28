@@ -126,5 +126,25 @@
         length="72497658"
         type="application/octet-stream" />
     </item>
+      <item>
+      <title>Downloader 1.2.1</title>
+      <pubDate>Tue, 28 Jul 2026 13:36:34 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<html><body>
+<h3>Added</h3>
+<ul>
+<li>**Check for Updates.** You can now check for new versions of Downloader directly from the app&#x27;s main menu, and from a new section in Settings that shows the currently installed version alongside a button to check for updates.</li>
+</ul>
+</body></html>
+      ]]></description>
+      <enclosure
+        url="https://github.com/hiyuno/downloader_updates/releases/download/v1.2.1/Downloader-1.2.1.dmg"
+        sparkle:edSignature="LRWqSoFfdZFZXCXmg65ETqrxzFreJY8TSTgzT3ZpZLC4PpAGz0ciKiTQdh5BP2Fu77Z57FRN7JNyn5tAsftbBw=="
+        length="72493718"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
