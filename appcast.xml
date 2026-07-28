@@ -81,5 +81,25 @@
         length="66097543"
         type="application/octet-stream" />
     </item>
+      <item>
+      <title>Downloader 1.1.1</title>
+      <pubDate>Tue, 28 Jul 2026 01:24:26 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<html><body>
+<h3>Changed</h3>
+<ul>
+<li>**Transición más clara al descargar y al completar.** El panel ahora anima con más intención el paso de &quot;Preparando…&quot; a la descarga en curso: el porcentaje y el anillo de progreso dejan de aparecer prematuramente y entran deslizándose apenas arranca el progreso real. Al completar la descarga, ese mismo indicador se retira antes de que aparezcan los accesos para abrir el archivo y revelarlo en Finder, evitando que todo cambie de golpe. El ícono de estado a la izquierda pasa de flecha a check con un fundido suave, sin saltos. Si ocurre un error, el indicador simplemente se retira. Quienes tienen activado &quot;Reducir movimiento&quot; ven la misma secuencia con fundidos en vez de deslizamientos.</li>
+</ul>
+</body></html>
+      ]]></description>
+      <enclosure
+        url="https://github.com/hiyuno/downloader_updates/releases/download/v1.1.1/Downloader-1.1.1.dmg"
+        sparkle:edSignature="fAleZlogYIJkudKxRPNbx5V1IR2A6uCZA0y8P5v4uOg1N2qCGYDW3sZ5OXmYEFfOaBsXzQvVpmuCgm0gSXL+CQ=="
+        length="66109472"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
